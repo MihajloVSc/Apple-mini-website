@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macbook Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="main">
+
+        <!-- header section  -->
+        <header>
+            <a href="#"><img class="img" src="https://images.squarespace-cdn.com/content/v1/5bd0da72b7c92c1e9c642fdf/1540713247705-8U3EF2W2Y3WHXVS7DIKR/Apple+Logo.png" alt="logo sajta"></a>
+            <ul class="navigation">
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </header>
+        
+        <!-- content seciton  -->
+        <div class="content">
+            <h2>Feel the   <span>CPU</span></h2>
+            <a href="#" class="btn" > Buy Now &#8594;</a>
+            <img src="https://www.mobilefactory.rs/backoffice/images_arhive/original/254400.png" alt="motor sa sajta " class="macbook">
+        </div>
+        
+        <!-- slider content  -->
+        <div class="slider">
+            <div class="slides active" id="slide_1">
+                <h2><span>CPU</span><br>16-cores</h2>
+                <h2><span>Max clock </span><br>8.429 GHz</h2>
+            </div>
+            <div class="slides" id="slide_2">
+                <h2><span>Intel</span><br>Next gen</h2>
+                <h2><span>4 Ghz</span><br>i7-201ks</h2>
+            </div>
+            <div class="slides" id="slide_3">
+                <h2><span>Stock</span><br>Cheaper</h2>
+                <h2><span>$27.22 </span><br>20.22$</h2>
+            </div>
+        </div>
+
+        <!-- footer section  -->
+        <div class="footer">
+            <ul class="sci">
+                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-apple-appstore"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-apple"></ion-icon></a></li>
+            </ul>
+            <!-- dots  -->
+            <div class="dots">
+                <span class="dot active" id="dot_1" onclick=" DotOne()"></span>
+                <span class="dot" id="dot_2" onclick="DotTwo()"></span>
+                <span class="dot" id="dot_3" onclick="DotThree()"></span>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- real javascript  -->
+    <script src="script.js"></script>
+</body>
+</html>
